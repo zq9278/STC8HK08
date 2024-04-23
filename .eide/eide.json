@@ -1,0 +1,48 @@
+{
+  "name": "STC8HK08",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [
+    "src",
+    "lib/src",
+    "user/src"
+  ],
+  "outDir": "build",
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "miscInfo": {
+    "uid": "dc1dbec7c184154dc0150ed7695e736c"
+  },
+  "targets": {
+    "Release": {
+      "excludeList": [],
+      "toolchain": "Keil_C51",
+      "compileConfig": {
+        "options": ""
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "",
+        "commandLine": "stcgal  -p COM4  \"${hexFile}\"",
+        "eraseChipCommand": "python ./tools/stcflash.py -p COM4 -e"
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "lib/Inc",
+          "user/Inc"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3",
+  "deviceName": null,
+  "packDir": null
+}

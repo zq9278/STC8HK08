@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stc8g_h_gpio.h": "c",
+        "gpio.h": "c",
+        "stc8g_h_delay.h": "c",
+        "config.h": "c",
+        "interrupt.h": "c",
+        "stc8g_h_exti.h": "c"
+    }
+}
